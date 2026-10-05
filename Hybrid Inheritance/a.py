@@ -21,6 +21,6 @@ class D(B, C):
 obj = D()
 
 obj.showA()
+obj.showB()
 obj.showC()
 obj.showD()
-print("Thanks!")
