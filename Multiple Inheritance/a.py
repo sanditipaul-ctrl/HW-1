@@ -19,7 +19,6 @@ class FacultyMember(Teacher,Department):
         Teacher.__init__(self)
         Department.__init__(self)
         self.destination = input("Enter destination: ")
-        self.salary = input("Enter salary: ")
 
     def display_info(self):
         Teacher.display_info(self)
@@ -28,3 +27,4 @@ class FacultyMember(Teacher,Department):
 
 f1 = FacultyMember()
 f1.display_info()
+print("Thanks!")

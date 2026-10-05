@@ -21,11 +21,11 @@ class IssuedBook(LibraryBook):
         super().__init__()
         self.browser_name = input("Enter browser name: ")
         self.Issue_date = input("Enter Issued date: ")
-        self.return_date = input("Enter return date: ")
 
     def display_info(self):
         super().display_info()
-        print(f"Browser name: {self.browser_name}\nIssue Date: {self.Issue_date}\nReturn date: {self.return_date}")
+        print(f"Browser name: {self.browser_name}\nIssue Date: {self.Issue_date}\n")
 
 I = IssuedBook()
 I.display_info()
+print("Thanks!")
