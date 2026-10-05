@@ -26,5 +26,6 @@ class FacultyMember(Teacher,Department):
         print(f"Destination: {self.destination}\nSalary: {self.salary}")
 
 f1 = FacultyMember()
+T = Teacher()
 f1.display_info()
 print("Thanks!")
