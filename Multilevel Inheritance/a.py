@@ -28,4 +28,3 @@ class IssuedBook(LibraryBook):
 
 I = IssuedBook()
 I.display_info()
-print("Thanks!")
